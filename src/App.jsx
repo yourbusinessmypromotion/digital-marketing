@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 
-// 💡 TIP: Replace this with your actual WhatsApp business number (include country code 91 without +)
-const WHATSAPP_NUMBER = "919876543210";
+// WhatsApp business contact number
+const WHATSAPP_NUMBER = "919347965863";
 
 const services = [
   {
@@ -468,14 +468,19 @@ function App() {
               </div>
 
               <div className="direct-call-box">
-                <span>Prefer to speak right now?</span>
+                <div>
+                  <span>Direct WhatsApp / Call:</span>
+                  <strong style={{ display: "block", color: "#4ef08d", fontSize: "16px", marginTop: "2px" }}>
+                    +91 93479 65863
+                  </strong>
+                </div>
                 <a
                   href={baseWhatsappLink}
                   target="_blank"
                   rel="noreferrer"
                   className="quick-whatsapp-link"
                 >
-                  💬 Quick Chat on WhatsApp ↗
+                  💬 Chat on WhatsApp ↗
                 </a>
               </div>
             </div>
